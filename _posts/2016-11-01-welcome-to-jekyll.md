@@ -4,7 +4,8 @@ title:  "hello jekyll!"
 date:   2016-11-01 15:14:54
 categories: Avionics
 tags: Avionics
-excerpt: 当年创建 jekyll 时默认的一篇文章，没什么意义，我也一直没删除，留个纪念吧。
+author: 辛亚平
+excerpt: 暂时保留的 jekyll 时默认的一篇文章。
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
