@@ -13,6 +13,10 @@ author: 辛亚平
 
 注：谷歌拼音输入法有基于 ibus 框架的，也有基于 fcitx 框架的。鉴于 ibus 框架的谷歌拼音输入法已经不更新了，我们就只介绍基于 fcitx 框架的。
 
+
+
+
+
 ## 软件环境
 
 OS：Ubuntu 16.04.1 LTS (Xenial Xerus) + Gnome Desktop 界面显示语言：英文
