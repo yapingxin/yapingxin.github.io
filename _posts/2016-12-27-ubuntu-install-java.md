@@ -78,7 +78,7 @@ sudo apt-get update
 sudo apt-get install oracle-java8-installer
 ```
 
-会弹出 Oracle Binary Code license terms（用户协议），点 OK / Yes ，因为也没有别的选择，除非你想终止安装：
+会弹出用户协议。点 OK / Yes。这里也没有别的选择，除非你想终止安装：
 
 ![](/attachment/daily/2016/1227/ubuntu-install-java-screenshots-s01-01-oracle-jdk.png)
 
