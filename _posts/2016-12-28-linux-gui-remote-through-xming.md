@@ -102,3 +102,8 @@ sudo apt-get install openssh-server
 看上图。在 Windows 桌面上显示出来了一个明显是 Linux 风格的 CodeLite 界面。爽不爽？
 
 这就是我今天要分享的 Linux 小技巧。:-)
+
+## 后记
+
+1. 关于 Xming 的详细的用法，请参考 [xmingrc](http://www.straightrunning.com/XmingNotes/xmingrc.php)，这是 Xming 的官方说明手册。可以看到 Xming 是一个极其强大的工具，还是有很多地方可以详细设置的。
+2. 除了 Xming 之外，在 GitHub 上还活跃着另外一个开源且免费的 Windows 平台上的 X Server，它就是：[VcXsrv (Visual C++ X-server)](https://github.com/theqvd/vcxsrv)。从它的名字就可以猜到了，它是用 Visual C++ 开发的一个 X Server 程序。据说它比 Xming 还要好，而且状态比 Xming 更活跃。今天没空试试它了，改日再说吧。
