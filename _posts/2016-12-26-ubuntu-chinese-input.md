@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ubuntu 安装简体中文 Google 拼音输入法"
-categories: Ubuntu
+categories: Linux
 tags:  Ubuntu 输入法 fcitx
 author: 辛亚平
 ---

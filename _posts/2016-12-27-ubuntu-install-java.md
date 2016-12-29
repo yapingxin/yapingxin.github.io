@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to install specific version of Java on Ubuntu with apt-get"
-categories: Ubuntu
+categories: Linux
 tags:  Ubuntu Java
 author: 辛亚平
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "通过 SSH 与 Xming 执行远程 Linux 主机上的 GUI 应用程序"
-categories: Ubuntu
-tags:  Ubuntu Java
+categories: Linux
+tags:  Linux SSH Xming
 author: 辛亚平
 ---
 
