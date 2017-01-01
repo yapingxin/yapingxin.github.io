@@ -44,14 +44,13 @@ printf("%s %ls\n", ctxt, wtxt);
 
 int main()
 {
-	const char ctxt[] = "Display:";
-	const wchar_t wtxt[] = L"简体中文的世界。";
-
-	setlocale(LC_CTYPE, "zh-CN");
-
-	printf("%s %ls\n", ctxt, wtxt);
-
-	return 0;
+    const char ctxt[] = "Display:";
+    const wchar_t wtxt[] = L"简体中文的世界。";
+    
+    setlocale(LC_CTYPE, "zh-CN");
+    printf("%s %ls\n", ctxt, wtxt);
+    
+    return 0;
 }
 ```
 
@@ -69,49 +68,54 @@ static int DisplayMenu();
 
 int main()
 {
-	const char ctxt[] = "Display:";
-	const wchar_t wtxt[] = L"简体中文的世界。";
-
-	DisplayMenu();
-
+    DisplayMenu();
     return 0;
 }
 
 static int DisplayMenu()
 {
-	const wchar_t* wtxts[] =
-	{
-		L"*****************************************",
-		L"******** 欢迎我家小森森进入游戏！********",
-		L"****     1. 这是什么游戏？怎么玩？   ****",
-		L"****     2. 看完说明了，我要玩！     ****",
-		L"****     3. 我要退出                 ****",
-		L"**** I love you, love you, love you! ****",
-		L"*****************************************",
-		L"小森森，请选择："
-	};
-
-	unsigned char count = sizeof(wtxts) / sizeof(wchar_t*);
-	unsigned char index = 0;
-	int select = 0;
-
-	setlocale(LC_CTYPE, "zh-CN");
-
-	for (index = 0; index < count; index++)
-	{
-		printf("%ls", wtxts[index]);
-
-		if (count - index > 1)
-		{
-			printf("\n");
-		}
-	}
-
-	select = getchar();
-	return select;
+    const wchar_t* wtxts[] =
+    {
+        L"*****************************************",
+        L"******** 欢迎我家小森森进入游戏！********",
+        L"****     1. 这是什么游戏？怎么玩？   ****",
+        L"****     2. 看完说明了，我要玩！     ****",
+        L"****     3. 我要退出                 ****",
+        L"**** I love you, love you, love you! ****",
+        L"*****************************************",
+        L"小森森，请选择："
+    };
+    
+    unsigned char count = sizeof(wtxts) / sizeof(wchar_t*);
+    unsigned char index = 0;
+    int select = 0;
+    
+    setlocale(LC_CTYPE, "zh-CN");
+    
+    for (index = 0; index < count; index++}
+    {
+        printf("%ls", wtxts[index]);
+        
+        if (count - index > 1)
+        {
+            printf("\n");
+        }
+    }
+    
+    select = getchar();
+    return select;
 }
 ```
 
 输出：
 
 ![](/attachment/daily/2017/0101/printf-chs.png)
+
+## 进一步了解
+
+看看下面这些文档：
+
+- [MSDN: setlocale, _wsetlocale](https://msdn.microsoft.com/en-us/library/x99tb11d.aspx)
+- [MSDN: Locale](https://msdn.microsoft.com/en-us/library/wyzd2bce.aspx)
+- [C标准库的setlocale()用法笔记](http://www.cnblogs.com/hnrainll/archive/2011/05/07/2039700.html)
+- [IBM Knowledge Center: setlocale() — Set locale](https://www.ibm.com/support/knowledgecenter/SSLTBW_1.13.0/com.ibm.zos.r13.bpxbd00/setloc.htm)
