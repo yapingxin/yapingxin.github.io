@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "如何在 Windows 控制台中用 printf 正确地输出中文"
-categories: VC++ Windows Win32
-tags:  Win32
+categories: Win32
+tags:  VC++ Windows Win32
 author: 辛亚平
 ---
 
