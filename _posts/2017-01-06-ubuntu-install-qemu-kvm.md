@@ -73,3 +73,11 @@ sudo virsh -c qemu:///system list
 
 虽然看到的是个空列表，但是如果能看到这个输出结果，至少说明安装成功，一切以经准备就绪了。
 
+## 参考文章
+
+- [How to Install KVM and Create Virtual Machines on Ubuntu](http://www.howtogeek.com/117635/how-to-install-kvm-and-create-virtual-machines-on-ubuntu/)
+- [qemu的安装步骤详解(适合ubuntu和windows)](http://blog.csdn.net/ustc_dylan/article/details/4178381)
+
+
+
+
