@@ -49,7 +49,7 @@ sudo apt-get install qemu-kvm libvirt-bin bridge-utils virt-manager
 sudo adduser <username> libvirtd
 ```
 
-注意要把上述命令的 <username> 替换成你自己的用户名。比如我自己执行的命令：
+注意要把上述命令的 \<username\> 替换成你自己的用户名。比如我自己执行的命令：
 
 ```
 sudo adduser yaping libvirtd
