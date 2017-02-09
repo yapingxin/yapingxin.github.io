@@ -1393,6 +1393,24 @@ make -j4
 sudo make install
 ```
 
+安装很顺利，不会出什么问题。可以看到它把 CMake 安装到了 /usr/local/share/cmake-3.7/ 这个目录下面。
+
+## 检查 CMake 是否已经安装好
+
+执行：
+
+```shell
+cmake --version
+```
+
+如果 CMake 安装得没有问题，就会显示出安装版本信息，如下：
+
+```shell
+cmake version 3.7.2
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+```
+
 ## 参考文章
 
 - [askubuntu: How to install latest cmake version in Linux/Ubuntu from command line?](http://askubuntu.com/questions/355565/how-to-install-latest-cmake-version-in-linux-ubuntu-from-command-line)
