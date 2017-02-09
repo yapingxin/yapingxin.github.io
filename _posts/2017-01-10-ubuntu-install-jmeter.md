@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "How to resolve “How to install JMeter on Ubuntu"
+title:  "How to install Latest JMeter on Ubuntu"
 categories: Tools
-tags:  Web_Testing
+tags:  JMeter
 author: 辛亚平
 ---
 
