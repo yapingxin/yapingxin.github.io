@@ -2,7 +2,7 @@
 layout: post
 title:  "How to install latest CMake on Linux"
 categories: C/C++
-tags:  codeblocks makefile C C++
+tags:  CMake C C++
 author: 辛亚平
 ---
 
@@ -54,7 +54,7 @@ cd cmake-3.7.2/
 
 执行这个命令的时间略长，会执行一个长长的 check，到最后提示说可以运行 make 了：
 
-```shell
+```12
 -o cmake
 loading initial cache file /home/yapingxin/tmp/cmake-3.7.2/Bootstrap.cmk/InitialCacheFlags.cmake
 -- The C compiler identification is GNU 4.9.4
