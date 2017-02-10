@@ -41,7 +41,7 @@ author: 辛亚平
 
 Visual C++ for Linux 是怎么样来找 Linux 上的头文件从而做到代码智能提示（Intelisense）的呢？实际上在创建 Linux 工程的时候它会从下面这些路径寻找预先存放好的 Linux 头文件：
 
-'''
+```
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Linux\include\\usr\include\c++\5
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Linux\include\\usr\include\x86_64-linux-gnu\c++\5
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Linux\include\\usr\include\c++\5\backward
@@ -50,7 +50,7 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Linux\include\\usr\local\
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Linux\include\\usr\lib\gcc\x86_64-linux-gnu\5\include-fixed
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Linux\include\\usr\include\x86_64-linux-gnu
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Linux\include\\usr\include
-'''
+```
 
 上述文件夹我不确定是否会有所变动，其实你可以查看你自己的环境。
 
