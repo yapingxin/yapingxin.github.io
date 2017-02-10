@@ -66,16 +66,21 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Linux\include\\usr\includ
 以 src 代表源文件夹，dst 代表目的文件夹。
 
 src[1]: /usr/include
+
 dst[1]: C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Linux\include\usr\include
 
 拷贝了这些文件和文件夹：
 
 netinet/*.*
+
 arpa/*.*
+
 asm-generic/*.*
+
 linux/*.*
 
 src[2]: /usr/include/x86_64-linux-gnu
+
 dst[2]: C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Linux\include\usr\include\x86_64-linux-gnu
 
 拷贝了所有的文件和文件夹：
