@@ -88,7 +88,11 @@ vs_community.exe
   --layout C:\Pub\Tools\Microsoft\vs2017offline 
   --lang en-US 
   --add 
-        Microsoft.VisualStudio.Workload.CoreEditor Microsoft.VisualStudio.Workload.NativeCrossPlat Microsoft.VisualStudio.Workload.NativeDesktop Microsoft.VisualStudio.Workload.Universal
+        Microsoft.VisualStudio.Workload.CoreEditor 
+Microsoft.VisualStudio.Workload.NativeCrossPlat 
+Microsoft.VisualStudio.Workload.NativeDesktop 
+Microsoft.VisualStudio.Workload.Universal
+
 ```
 
 注意以上命令为了好看我特意进行了一点排版，实际上参数之间用空格分开就可以了。也就是说，我实际上执行的命令是：
