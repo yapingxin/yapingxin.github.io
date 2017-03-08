@@ -89,9 +89,9 @@ vs_community.exe
   --lang en-US 
   --add 
         Microsoft.VisualStudio.Workload.CoreEditor 
-Microsoft.VisualStudio.Workload.NativeCrossPlat 
-Microsoft.VisualStudio.Workload.NativeDesktop 
-Microsoft.VisualStudio.Workload.Universal
+        Microsoft.VisualStudio.Workload.NativeCrossPlat 
+        Microsoft.VisualStudio.Workload.NativeDesktop 
+        Microsoft.VisualStudio.Workload.Universal
 
 ```
 
