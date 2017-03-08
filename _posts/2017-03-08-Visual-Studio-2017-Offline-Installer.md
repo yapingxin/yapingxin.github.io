@@ -47,12 +47,12 @@ vs_community.exe --layout C:\Pub\Tools\Microsoft\vs2017offline
 
 根据文档，我们可以加上以下几个参数来缩小安装包的体积：
 
---lang en-US
+**--lang en-US**
 
 这个参数是为了只包含英文安装文件。工程师应该都比较习惯英文版的 Visual Studio 吧，所以我们就不下载那些中文、法文、日文之类的文件了。。。
 
 
---add <workload\>
+**--add <workload\>**
 
 上面的 <workload\> 就是具体你要安装哪些功能。Visual Studio 2017 是一个非常庞大的工具，但有很多功能你不一定用得上，那些用不上的部分就不要下载更不要安装了。
 
@@ -109,7 +109,7 @@ vs_community.exe --layout C:\Pub\Tools\Microsoft\vs2017offline --lang en-US --ad
 
 ![](/attachment/daily/2017/0308/VS2017-Create-Offline-Package-A02.png)
 
-进过大约两个小时的时间，下载完毕，最终得到的安装包的大小是：2.07 GB
+进过大约两个小时的时间，下载完毕，最终得到的安装包的大小是：**2.07 GB**
 
 这个大小已经相当可以了。
 
