@@ -14,6 +14,7 @@ author: 辛亚平
 所以在本文中我们来介绍如果为 Ubuntu 安装 gnome 桌面，以及如何卸载 Ubuntu 自带的 Unity 桌面。
 
 
+
 ## 软件环境
 
 我的 Ubuntu 版本是：Ubuntu 16.04.3 LTS (Xenial Xerus)
