@@ -95,5 +95,6 @@ sudo apt-get autoremove
 - [How can you remove Unity?](https://askubuntu.com/questions/6302/how-can-you-remove-unity)
 - [Can I remove Unity now and how?](https://askubuntu.com/questions/651013/can-i-remove-unity-now-and-how)
 - [How to Install the Gnome Classic Desktop in Ubuntu 14.04](https://www.howtogeek.com/189912/how-to-install-the-gnome-classic-desktop-in-ubuntu-14.04/)
+- [Install Gnome Classic (Gnome Session Fallback) to Ubuntu 12.04](http://blog.csdn.net/shaonan155/article/details/17789619)
 
 
