@@ -67,6 +67,21 @@ layout: default
         <h2 id="comments">Comments</h2>
         {% include comments.html %}
 
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'yapingxin',
+    repo: 'https://github.com/yapingxin/yapingxin.github.io.git',
+    oauth: {
+        client_id: 'f51c502b5fc0fbb48b3c',
+        client_secret: '8aad98b1ef10df7180a8a2771d2b1fb03d720f94',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
+
 
     </div>
     <button class="anchor"><i class="fa fa-anchor"></i></button>
