@@ -11,6 +11,8 @@ author: 辛亚平
 
 针对 Visual C++ for Linux 这个插件：修复它的代码智能提示（Intelisense）功能。
 
+![Visual C++ for Linux Development](/attachment/MSProd/MS_VCLinux_Logo_RU.jpg)
+
 
 
 ## 问题
