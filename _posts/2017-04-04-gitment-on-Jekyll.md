@@ -13,12 +13,7 @@ author: 辛亚平
 
 
 
-
-## 软件环境
-
-我的 Ubuntu 版本是：Ubuntu 16.04.3 LTS (Xenial Xerus)
-
-## 安装 gnome 桌面
+## 注意事项
 
 为 Jekyll 博客添加 gitment 评论系统，如何去做，这篇文章说得非常清楚了：《[为 Jekyll 博客添加 gitment 评论系统](http://www.cnblogs.com/jacobpan/p/7200512.html)》
 
