@@ -79,4 +79,8 @@ int main()
 
 - [欧拉筛法求素数](http://www.cnblogs.com/A-S-KirigiriKyoko/p/6034584.html)
 - [欧拉筛法实现素数表的快速筛取](http://www.itwendao.com/article/detail/390669.html)
+- [数论之 素因子分解，素数筛选法，欧拉函数和扩展欧几里得算法（整理）](https://yq.aliyun.com/articles/15370)
+- [Eratosthenes筛法和欧拉筛法对比](http://www.xuebuyuan.com/1939896.html)
+
+
 
