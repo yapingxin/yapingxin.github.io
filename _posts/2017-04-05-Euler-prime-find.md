@@ -15,7 +15,9 @@ author: 辛亚平
 
 ## 代码
 
-[code]
+
+```
+
 
 // Prime_EulerSelect.c : Defines the entry point for the console application.
 //
@@ -72,7 +74,7 @@ int main()
 
 
 
-[/code]
+```
 
 
 ## 参考文章
