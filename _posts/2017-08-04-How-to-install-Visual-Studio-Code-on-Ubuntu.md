@@ -41,7 +41,7 @@ umake ide visual-studio-code
 
 ![Install Visual Studio Code using umake: step 1](/attachment/daily/2017/0804/umake-install-vscode-step_2.png)
 
-接下来 unmake 会自动下载最新的 Visual Studio Code 并进行安装。不需要做任何操作干预，看着就好了。如图所示：
+接下来 umake 会自动下载最新的 Visual Studio Code 并进行安装。不需要做任何操作干预，看着就好了。如图所示：
 
 ![Install Visual Studio Code using umake: step 1](/attachment/daily/2017/0804/umake-install-vscode-step_3.png)
 
