@@ -45,6 +45,11 @@ umake ide visual-studio-code
 
 ![Install Visual Studio Code using umake: step 1](/attachment/daily/2017/0804/umake-install-vscode-step_3.png)
 
+安装完成后，如你所愿，Visual Studio Code 被添加在了“程序开发”这个程序组里面，如下图所示：
+
+![Install Visual Studio Code using umake: step 1](/attachment/daily/2017/0804/vscode-ide-group.png)
+
+
 ## 卸载
 
 卸载只需执行这条命令：
